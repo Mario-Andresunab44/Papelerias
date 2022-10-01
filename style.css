@@ -28,3 +28,18 @@ form{
     justify-content: center; /*contenido centrado horizontal */
     align-items: center; /*acontenido centrado vertical*/
 }
+
+button{
+    margin-top: 20px; /* sepracion externa entre el input del correo y el boton guardar*/
+    padding: 10px; /*este da el margen interno del nombre del boton*/
+    font-size: 20px; /*tamaño de letra*/
+    font-weight: bold; /*texto en negrilla*/
+    border-radius: 5px; /*redondea el cuadrado*/
+    background-color: green; /* fondo del color del boton*/
+    transition: all .5s ease-in-out; /*efecto de timepo de animaccion*/
+    cursor: pointer; /*saca la mnito cuando se toca el boton*/
+}
+
+button:hover{
+    background-color: greenyellow; /*un evento cuando se pasa por emncima del boton en ests caso cabia color de fondo*/
+}
