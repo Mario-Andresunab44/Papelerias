@@ -3,13 +3,14 @@ body {
     width: 100%; /*ancho de la pagina */
     height: 100vh; /*altura de la pagina 100% o virtual height */
     display: flex; /*prpoiedad para bloques */
+    flex-direction: column;
     justify-content: center; /*contenido centrado horizontal */
     align-items: center; /*acontenido centrado vertical*/
 }
 
 .contenedor{    
     width: 500px; /*define ancho contenedor*/
-    height: 500px; /*define altura contenedor*/
+    /*height: 500px; define altura contenedor*/
     background-color: aqua; /*definecolor fondo contenedor*/
     display: flex;
     justify-content: center;
@@ -20,4 +21,10 @@ h1{
 }
 h2{
     font-style:italic ;
+}
+form{
+    display: flex; /*prpoiedad para bloques */
+    flex-direction: column;
+    justify-content: center; /*contenido centrado horizontal */
+    align-items: center; /*acontenido centrado vertical*/
 }
