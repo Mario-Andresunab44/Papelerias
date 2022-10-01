@@ -18,3 +18,6 @@ body {
 h1{
     text-transform: uppercase; /* este metodo aolica mayuscula al texto*/
 }
+h2{
+    font-style:italic ;
+}
